@@ -1,0 +1,16 @@
+{
+    "name": "yonarifin/belajar-composer-library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "YonArifin29",
+            "email": "yonarifin94@smk.belajar.id"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {"YonArifin\\belajar": "src/"}
+    }
+}
